@@ -1,0 +1,130 @@
+.container {
+    margin: -8px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(0, 216, 237);
+    
+  }
+  .cor{
+    color: white;
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  .cor2{
+    margin-top: -2.5rem;
+    color: #0979b0;
+    font-size: 33px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  .cor3{
+    margin-top: -1rem;
+    color: white;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  .cor4{
+    color: white;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  .cor5{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  .inputText{
+    border: 1px solid #ccc; /* Adicione uma borda para destacar os campos */
+    padding: 8px; /* Adicione um preenchimento interno para melhor aparência */
+    border-radius: 15px; /* Adicione bordas arredondadas */
+    box-sizing: border-box; /* Garante que a largura inclua a borda e o preenchimento */
+    margin-bottom: 1px;/* Adicione margem inferior para espaçamento entre os campos */
+    width: 20rem;
+  }
+  .area {
+    z-index: 1;
+    background-color: rgb(0, 172, 206); /* Cor de fundo da área */
+    padding: 10px; /* Adicione preenchimento para melhor aparência */
+    padding-bottom: 30px;
+    margin: 30px; /* Reduzindo a margem */
+    color: #fff; /* Cor do texto dentro da área */
+    width: 500px;
+    border-radius: 15px; /* Adicione bordas arredondadas */
+    box-sizing: border-box; /* Garante que a largura inclua a borda e o preenchimento */
+  }
+  h1{
+    margin-bottom: 0px;
+  }
+  .checkbox{
+    background-color: black;
+    width: 8rem;
+    z-index: 1;
+    position: absolute;
+    margin-top: 4.4rem;
+    border-radius: 15px; /* Adicione bordas arredondadas */
+    box-sizing: border-box; /* Garante que a largura inclua a borda e o preenchimento */
+  }
+  .options{
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-color: black;
+    padding: 20px;    
+    z-index: 0;
+    border-radius: 15px; /* Adicione bordas arredondadas */
+    box-sizing: border-box; /* Garante que a largura inclua a borda e o preenchimento */
+  }
+  .options span{
+    background-color: #003f53;
+    padding: 2px 10px 2px 10px;
+    display: flex;  
+    flex-direction: row;   
+    border-radius: 15px; /* Adicione bordas arredondadas */
+    box-sizing: border-box; /* Garante que a largura inclua a borda e o preenchimento */
+  }  
+  .options div{
+    display: flex;  
+    gap:10px ;
+    margin-bottom: 5px;
+  }
+  .options:nth-child(2) span{
+    margin-top: 5px;
+    width: 30px;
+  }
+  .options:nth-child(3){
+    margin-top: 5px;
+  }
+  .checkbox1{
+  color: white;
+  font-size: 18px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  border: 1px dashed black;
+  border-color: black;
+  padding: 95px;
+  position: relative;
+  z-index: 0; /* Certifique-se de que a camada do elemento com a borda seja maior do que a do fundo */
+  border-radius: 15px;
+  margin-top: -8rem;
+  }
+  .redirecionar{
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: black;
+    width: 18rem;
+    height: 3rem;
+    position: absolute;
+    margin-top: 68rem;
+    border-radius: 25px; /* Adicione bordas arredondadas */
+    box-sizing: border-box; /* Garante que a largura inclua a borda e o preenchimento */
+    
+  }
+  
+    
+    
+   
+   
+    
